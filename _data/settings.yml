@@ -9,7 +9,7 @@ email: dylantgreene@outlook.com
 
 menu:
 - {name: About, url: '#about-me'}
-# - {name: Work, url: '#work'}
+- {name: Work, url: '#work'}
 - {name: Education, url: '#education'}
 - {name: Contact, url: '#contact'}
 
@@ -60,13 +60,13 @@ skills:
 # Work Section
 
 projects:
+- {name: Photovoltaic GIS Research Project, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: C++ Image Compression, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: ACE Technical Intern, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Fisher Hall Website, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Photovoltaic GIS Research Project, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Fisher Hall, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Anonymous Infographic, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Empty 1, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Empty 2, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Project Euler, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Web Development, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: 2006 Time Person of the Year, folder: 'proj-4', file: 'work/proj-4.html'}
 
 
