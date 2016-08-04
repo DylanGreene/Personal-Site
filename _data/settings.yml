@@ -1,0 +1,101 @@
+#-------------------------------
+# General Site Settings
+
+title: Dylan Greene
+description: Student // Engineer // Dreamer
+email: dylantgreene@outlook.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About, url: '#about-me'}
+# - {name: Work, url: '#work'}
+- {name: Education, url: '#education'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Dylan Greene personal website with resume. Student at the University of Notre Dame.'
+  rel-author: 'https://plus.google.com/u/0/+DylanGreene25/'
+  rel-publisher: 'https://plus.google.com/u/0/+DylanGreene25/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  Hi! I am a student at the University of Notre Dame working
+  toward a degree in Computer Engineering. I love learning, and I have an
+  incredible passion for innovation. My **resume** can be found
+  [here](assets/img/DylanGreene_Resume.pdf){:target="_blank"}.
+
+
+skills:
+- {name: Problem Solving, value: '9'}
+- {name: Communication, value: '8'}
+- {name: Organization, value: '8'}
+- {name: Learning, value: '10'}
+- {name: Planning, value: '7'}
+- {name: Programming, value: '9'}
+- {name: Leadership, value: '8'}
+- {name: Ideation, value: '7'}
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: C++ Image Compression, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: ACE Technical Intern, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Fisher Hall Website, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Photovoltaic GIS Research Project, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Anonymous Infographic, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Empty 1, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Empty 2, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: 2006 Time Person of the Year, folder: 'proj-4', file: 'work/proj-4.html'}
+
+
+
+
+#-------------------------------
+# Education Section
+
+education:
+- {avatar: 'NotreDame_avatar.jpg',
+  name: 'University of Notre Dame',
+  title: 'GPA: 3.130/4.0',
+  quote: '<p>Currently a Junior pursuing a Bachelor of Engineering in Computer Engineering. As a student, I am very active in several clubs including Computer Club and Club Triathlon. Additionally, I maintain my dorms website and work on campus part-time. Go Irish! </p>',
+  logo: 'NotreDame_Logo.png'}
+- {avatar: 'MATES_avatar.jpg',
+  name: 'MATES',
+  title: 'GPA: 94/100',
+  quote: '<p>2014 alumnus of the Marine Academy of Technology and Environmental Science. I attended this magnet school for high school. While attending, I completed three major research projects. I also participated in clubs such as Math League, Human Rights Club, and Spanish Club. </p>',
+  logo: 'MATES_Logo.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/dylantgreene'}
+- {icon: 'github', link: 'https://github.com/DylanGreene'}
+- {icon: 'instagram', link: 'https://www.instagram.com/dylantgreene/'}
+- {icon: 'twitter', link: 'https://twitter.com/DylanTGreene'}
+- {icon: 'facebook', link: 'https://www.facebook.com/DylanTGreene'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

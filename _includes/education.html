@@ -1,0 +1,43 @@
+<section class="section-education">
+
+  <h3 id="education">Education</h3>
+
+  <div class="education-mobile-nav">
+    {% for education in site.data.settings.education %}
+        <span class="education-button {% if forloop.first %}active-education{% endif %}"></span>
+    {% endfor %}
+  </div>
+
+  <div class="education-belt">
+    {% for education in site.data.settings.education %}
+      <div class="education-unit {% if forloop.first %}active-education{% endif %}">
+
+        <figure class="education-face">
+          <img src="assets/img/education/{{ education.avatar }}" alt="education-face">
+          <figcaption>
+            <strong class="education-name">{{ education.name }}</strong>
+            <em class="education-title">{{ education.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="education-content">
+          <div class="education-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ education.quote }}
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="education-controls">
+    <div class="education-control-next">{% include icons/icon-next.html %}</div>
+    <div class="education-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+  <div class="education-logos">
+    {% for education in site.data.settings.education %}
+        <img class="education-logo {% if forloop.first %}active-education{% endif %}" src="assets/img/education/{{ education.logo }}" align="{{ education.logo }}">
+    {% endfor %}
+  </div>
+
+</section>
