@@ -7,4 +7,4 @@ to do so!
 
 ## Credits
 
-This is based on a Jekyll Theme that was developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners). Thank you for the tutorial!
+This is based on a Jekyll Theme that was developed on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners). Thank you for the tutorial!

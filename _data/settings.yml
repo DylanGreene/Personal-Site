@@ -3,9 +3,9 @@
 
 title: Dylan Greene
 description: Student // Engineer // Dreamer
-email: dylantgreene@outlook.com
+email: dgreene2@nd.edu
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
+# NOTE: Background image is defined in the all.sass document.
 
 menu:
 - {name: About, url: '#about-me'}
@@ -45,17 +45,6 @@ blurb: >
   [here](assets/img/DylanGreene_Resume.pdf){:target="_blank"}.
 
 
-skills:
-- {name: Problem Solving, value: '9'}
-- {name: Communication, value: '8'}
-- {name: Organization, value: '8'}
-- {name: Learning, value: '10'}
-- {name: Planning, value: '7'}
-- {name: Programming, value: '9'}
-- {name: Leadership, value: '8'}
-- {name: Ideation, value: '7'}
-
-
 #-------------------------------
 # Work Section
 
@@ -68,8 +57,6 @@ projects:
 - {name: Project Euler, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Web Development, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: 2006 Time Person of the Year, folder: 'proj-4', file: 'work/proj-4.html'}
-
-
 
 
 #-------------------------------
