@@ -65,7 +65,7 @@ projects:
 education:
 - {avatar: 'NotreDame_avatar.jpg',
   name: 'University of Notre Dame',
-  title: 'GPA: 3.130/4.0',
+  title: 'GPA: 3.184/4.0',
   quote: '<p>Currently a Junior pursuing a Bachelor of Engineering in Computer Engineering. As a student, I am very active in several clubs including Computer Club and Club Triathlon. Additionally, I maintain my dorms website and work on campus part-time. Go Irish! </p>',
   logo: 'NotreDame_Logo.png'}
 - {avatar: 'MATES_avatar.jpg',
